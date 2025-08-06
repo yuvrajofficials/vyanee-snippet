@@ -1,5 +1,5 @@
 {
-  "name": "vyanee-snippet",
+  "name": "@yuvrajofficials/vyanee-snippet",        // ✅ Scoped name for GitHub Packages
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.cjs.js",
@@ -18,12 +18,19 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "npm run build"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "homepage": "https://github.com/yuvrajofficials/vyanee-snippet",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"        // ✅ Corrected registry
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "styled-components": "^6.1.19"
+  },
   "devDependencies": {
     "@storybook/addon-docs": "^9.1.1",
     "@storybook/addon-onboarding": "^9.1.1",
@@ -56,21 +63,10 @@
     "react": "^19.1.1"
   },
   "lint-staged": {
-  "*.{ts,tsx}": [
-    "npm run format",
-    "npm run lint",
-    "npm run test"
-  ]
-},
-
-"publishConfig": {
-  "registry": "https://npm.pkg.github.com/@yuvrajofficials"
-},
-
-"homepage": "https://github.com/yuvrajofficials/vyanee-snippet",
-
-  "dependencies": {
-    "clsx": "^2.1.1",
-    "styled-components": "^6.1.19"
+    "*.{ts,tsx}": [
+      "npm run format",
+      "npm run lint",
+      "npm run test"
+    ]
   }
 }
