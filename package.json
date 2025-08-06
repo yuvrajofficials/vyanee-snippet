@@ -1,5 +1,5 @@
 {
-  "name": "@yuvrajofficials/vyanee-snippet",        // ✅ Scoped name for GitHub Packages
+  "name": "@yuvrajofficials/vyanee-snippet",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.cjs.js",
@@ -25,7 +25,7 @@
   "description": "",
   "homepage": "https://github.com/yuvrajofficials/vyanee-snippet",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"        // ✅ Corrected registry
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "clsx": "^2.1.1",
