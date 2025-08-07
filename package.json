@@ -25,7 +25,8 @@
   "description": "",
   "homepage": "https://github.com/yuvrajofficials/vyanee-snippet",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "dependencies": {
     "clsx": "^2.1.1",
