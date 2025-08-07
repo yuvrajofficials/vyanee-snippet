@@ -1,6 +1,6 @@
 {
   "name": "@yuvrajofficials/vyanee-snippet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
@@ -25,8 +25,7 @@
   "description": "",
   "homepage": "https://github.com/yuvrajofficials/vyanee-snippet",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "clsx": "^2.1.1",
